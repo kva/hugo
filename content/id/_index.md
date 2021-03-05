@@ -1,6 +1,6 @@
 ---
-title: Heru Sularto
-description: Heru Sularto, ini adalah jurnal pribadi.
+title: eR
+description: kva.github.io, ini adalah blog pribadi.
 date: 2020-01-26T04:15:05+09:00
 draft: false
 # updatesBanner: "Mulai hari ini, aku menulis&nbsp;[di sini](https://kva.github.io/)." 
@@ -8,7 +8,7 @@ landing:
   height: 500
   image: favicon/android-icon-192x192.png
   title:
-    - Assalamu'alaikum
+    - eR
   text:
     - Salam kenal. Kamu bisa memanggilku eR.
   titleColor:
@@ -16,7 +16,7 @@ landing:
   spaceBetweenTitleText: 25
   buttons:
     - link: docs
-      text: BACA PROFILKU
+      text: TENTANG ER
       color: primary
   # backgroundImage: 
   #   src: images/landscape.jpg
@@ -25,21 +25,21 @@ landing:
 sections:
   - bgcolor: teal
     type: card
-    description: "Di dalam blog ini, kamu akan menemukan :"
+    description: "Di dalam blog ini, kamu akan menemukan berbagai tulisanku tentang :"
     header: 
-      title: Ada Apa dalam Blog Ini?
+      title: Isi Blog Ini
       hlcolor: "#8bc34a"
       color: '#fff'
       fontSize: 32
-      width: 410
+      width: 180
     cards:
       - subtitle: Bahasa Jepang
         subtitlePosition: center
-        description: "Aku sedang belajar dan meningkatkan kemampuan bahasa Jepang."
+        description: "Aku sedang mempelajari dan meningkatkan kemampuan bahasa Jepang."
         image: images/section/processor.png
         color: white
         button: 
-          name: Ganbatte
+          name: Semangat!
           link: https://gohugo.io/
           size: large
           target: _blank
@@ -47,7 +47,7 @@ sections:
           bgcolor: '#283593'
       - subtitle: Code
         subtitlePosition: center
-        description: "Kumpulan program komputer yang aku pelajari dan aku butuhkan."
+        description: "Kumpulan program komputer yang sedang aku kerjakan, aku pelajari, dan aku butuhkan."
         image: images/section/keyboard.png
         color: white
         button: 
@@ -59,7 +59,7 @@ sections:
           bgcolor: '#283593'
       - subtitle: Desain Grafis
         subtitlePosition: center
-        description: "Cara menggambar berbagai vektor menggunakan Inkscape."
+        description: "Arsip gambar dan cara menggambar berbagai vektor menggunakan Inkscape."
         image: images/section/root-server.png
         color: white
         button: 
@@ -123,7 +123,7 @@ footer:
     applySinglePageCss: false
     markdown:
       |
-      ## Zzo docs
-      Copyright © 2020. All rights reserved.
+      ## eR | kva.github.io
+      Terima kasih atas segala kebaikanmu
 
 ---

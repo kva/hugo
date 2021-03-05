@@ -1,5 +1,5 @@
 logo = true
-logoText = "KVA"
+logoText = "eR"
 logoType = "short" # long, short
 description = "My personal blog."
 
@@ -30,9 +30,9 @@ taxoGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 github = "https://github.com/kva"
 
 # comment
-enableComment = false
-disqus_shortname = ""
-commento = false
+enableComment = true
+disqus_shortname = "herusularto"
+commento = true
 
 [gitment]          # Gitment is a comment system based on GitHub issues. see https://github.com/imsun/gitment
   owner = ""              # Your GitHub ID
