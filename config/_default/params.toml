@@ -30,7 +30,7 @@ taxoGroupByDate = "2006" # "2006-01": group by month, "2006": group by year
 github = "https://github.com/kva"
 
 # comment
-enableComment = true
+enableComment = false
 disqus_shortname = "herusularto"
 commento = true
 
@@ -54,14 +54,14 @@ commento = true
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 [valine]
-  enable = false
-  appId = '你的appId'
-  appKey = '你的appKey'
+  enable = true
+  appId = 'UqfsSj6S0C9o3VzrDs2US6fs-MdYXbMMI'
+  appKey = 'Ohea2nfAcfvklxw4YhUNlzft'
   notify = false  # mail notifier , https://github.com/xCss/Valine/wiki
   verify = false # Verification code
   avatar = 'mm' 
-  placeholder = '说点什么吧...'
-  visitor = false
+  placeholder = 'placeholder...'
+  visitor = true
 
 [changyan]
   changyanAppid = ""        # Changyan app id             # 畅言
