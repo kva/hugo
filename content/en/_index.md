@@ -3,14 +3,14 @@ title: Heru Sularto
 description: Heru Sularto, this is my personal journal.
 date: 2020-01-26T04:15:05+09:00
 draft: false
-updatesBanner: "From today, I start to write&nbsp;[here](https://kva.github.io/)." 
+# updatesBanner: "From today, I start to write&nbsp;[here](https://kva.github.io/)." 
 landing:
   height: 500
   image: favicon/android-icon-192x192.png
   title:
     - Hello
   text:
-    - My name is Heru Sularto. You can call me eR. Nice to meet you.
+    - You can call me eR. Nice to meet you.
   titleColor:
   textColor:
   spaceBetweenTitleText: 25

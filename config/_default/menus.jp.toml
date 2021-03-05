@@ -6,12 +6,12 @@
 
 [[main]]
   identifier = "updates"
-  name = "Updates"
-  url = "updates"
+  name = "Blog"
+  url = "blog"
   weight = 2
 
 [[main]]
-  identifier = "blog"
-  name = "Blog"
-  url = "blog"
+  identifier = "photo"
+  name = "Photo"
+  url = "photo"
   weight = 3

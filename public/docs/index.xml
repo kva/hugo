@@ -5,7 +5,7 @@
     <link>https://kva.github.io/docs/</link>
     <description>Recent content in Docs on ZDoc</description>
     <generator>Hugo -- gohugo.io</generator>
-    <language>en</language>
+    <language>id</language>
     <copyright>&amp;copy;{year}, All Rights Reserved</copyright>
     <lastBuildDate>Sat, 11 Jan 2020 14:09:21 +0900</lastBuildDate>
     
@@ -15,66 +15,48 @@
     
       
       <item>
-        <title>Getting Started</title>
-        <link>https://kva.github.io/docs/gettingstarted/</link>
+        <title>OS (Operating System)</title>
+        <link>https://kva.github.io/docs/operatingsystem/</link>
         <pubDate>Tue, 28 Jan 2020 00:34:39 +0900</pubDate>
         
-        <guid>https://kva.github.io/docs/gettingstarted/</guid>
+        <guid>https://kva.github.io/docs/operatingsystem/</guid>
         <description></description>
       </item>
       
       <item>
-        <title>Content Management</title>
-        <link>https://kva.github.io/docs/contentmanagement/</link>
+        <title>Web</title>
+        <link>https://kva.github.io/docs/web/</link>
         <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
         
-        <guid>https://kva.github.io/docs/contentmanagement/</guid>
+        <guid>https://kva.github.io/docs/web/</guid>
         <description></description>
       </item>
       
       <item>
-        <title>Related content</title>
-        <link>https://kva.github.io/docs/relatedcontent/</link>
-        <pubDate>Tue, 28 Jan 2020 00:39:09 +0900</pubDate>
+        <title>Programming</title>
+        <link>https://kva.github.io/docs/programming/</link>
+        <pubDate>Tue, 28 Jan 2020 00:36:39 +0900</pubDate>
         
-        <guid>https://kva.github.io/docs/relatedcontent/</guid>
-        <description>Markdown here</description>
+        <guid>https://kva.github.io/docs/programming/</guid>
+        <description></description>
       </item>
       
       <item>
-        <title>Page Resources</title>
-        <link>https://kva.github.io/docs/pageresources/</link>
-        <pubDate>Tue, 28 Jan 2020 00:39:06 +0900</pubDate>
+        <title>Graphic Design</title>
+        <link>https://kva.github.io/docs/graphicdesign/</link>
+        <pubDate>Tue, 28 Jan 2020 00:34:39 +0900</pubDate>
         
-        <guid>https://kva.github.io/docs/pageresources/</guid>
-        <description>Markdown here</description>
+        <guid>https://kva.github.io/docs/graphicdesign/</guid>
+        <description></description>
       </item>
       
       <item>
-        <title>Page Bundles</title>
-        <link>https://kva.github.io/docs/pagebundles/</link>
-        <pubDate>Tue, 28 Jan 2020 00:38:59 +0900</pubDate>
+        <title>Japanese</title>
+        <link>https://kva.github.io/docs/japanese/</link>
+        <pubDate>Sat, 11 Jan 2020 14:09:21 +0900</pubDate>
         
-        <guid>https://kva.github.io/docs/pagebundles/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>Content Formats</title>
-        <link>https://kva.github.io/docs/contentfortmats/</link>
-        <pubDate>Tue, 28 Jan 2020 00:38:51 +0900</pubDate>
-        
-        <guid>https://kva.github.io/docs/contentfortmats/</guid>
-        <description>Markdown here</description>
-      </item>
-      
-      <item>
-        <title>Image Processing</title>
-        <link>https://kva.github.io/docs/imageprocessing/</link>
-        <pubDate>Tue, 28 Jan 2020 00:38:48 +0900</pubDate>
-        
-        <guid>https://kva.github.io/docs/imageprocessing/</guid>
-        <description>Markdown here</description>
+        <guid>https://kva.github.io/docs/japanese/</guid>
+        <description></description>
       </item>
       
     

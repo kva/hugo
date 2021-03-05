@@ -13,7 +13,27 @@ series = ["Profil"]
 +++
 
 初めまして
-私はエルです。インドネシア人です。
+私はエルです。インドネシア人です。  
+<p>
+  <ruby>私 <rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>
+  は
+  <ruby>日本語 <rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby>
+  を
+  <ruby>勉強 <rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>
+  しています。
+  <ruby>日本語 <rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby>
+  が上手になるように願っています。私の趣味は
+</p>
+
+お<ruby>
+    茶 <rp>(</rp><rt>ちゃ</rt><rp>)</rp>
+</ruby>
+
+<ruby>
+    トー<rp>(</rp><rt>tō</rt><rp>)</rp>
+    マ <rp>(</rp><rt></rt><rp>)</rp>
+    ス <rp>(</rp><rt>su</rt><rp>)</rp>
+</ruby>
 <!--more-->
 
 This article offers a sample of basic Markdown syntax that can be used in Hugo content files, also it shows whether basic HTML elements are decorated with CSS in a Hugo theme.

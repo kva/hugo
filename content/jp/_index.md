@@ -3,14 +3,14 @@ title: ヘルスラルと
 description: ヘルスラルト、これは私の日記です。
 date: 2020-01-26T04:15:05+09:00
 draft: false
-updatesBanner: "<ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp><ruby>から、&nbsp; [ここで](https://kva.github.io/) &nbsp; <ruby>書<rp>(</rp><rt>か</rt><rp>)</rp><ruby>く<ruby>始<rp>(</rp><rt>はじ</rt><rp>)</rp><ruby>まります。" 
+# updatesBanner: "<ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp><ruby>から、&nbsp; [ここで](https://kva.github.io/) &nbsp; <ruby>書<rp>(</rp><rt>か</rt><rp>)</rp><ruby>く<ruby>始<rp>(</rp><rt>はじ</rt><rp>)</rp><ruby>まります。" 
 landing:
   height: 500
   image: favicon/android-icon-192x192.png
   title:
     - 初めまして
   text:
-    - 私の名前はヘルスラウトです。エルと申します。よろしくお願いします。
+    - 私はエルです。よろしくお願いします。
   titleColor:
   textColor:
   spaceBetweenTitleText: 25
@@ -25,7 +25,7 @@ landing:
 sections:
   - bgcolor: teal
     type: card
-    description: "<ruby>私<rp>(</rp><rt>わたし</rt><rp>)</rp><ruby>は<ruby>日本語<rp>(</rp><rt>にほんご</rt><rp>)</rp><ruby>を<ruby>勉強<rp>(</rp><rt>べんきょう</rt><rp>)</rp><ruby>しています。<ruby>日本語<rp>(</rp><rt>にほんご</rt><rp>)</rp><ruby>が上手になるように願っています。私の趣味は"
+    description: "<ruby>私 <rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>は<ruby>日本語 <rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby>を<ruby>勉強 <rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>しています。<ruby>日本語 <rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby>が上手になるように願っています。私の趣味は"
     header: 
       title: 私について
       hlcolor: "#8bc34a"

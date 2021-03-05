@@ -3,20 +3,20 @@ title: Heru Sularto
 description: Heru Sularto, ini adalah jurnal pribadi.
 date: 2020-01-26T04:15:05+09:00
 draft: false
-updatesBanner: "Mulai hari ini, aku menulis&nbsp;[di sini](https://kva.github.io/)." 
+# updatesBanner: "Mulai hari ini, aku menulis&nbsp;[di sini](https://kva.github.io/)." 
 landing:
   height: 500
   image: favicon/android-icon-192x192.png
   title:
     - Assalamu'alaikum
   text:
-    - Namaku Heru Sularto. Kamu bisa memanggilku eR. Salam kenal.
+    - Salam kenal. Kamu bisa memanggilku eR.
   titleColor:
   textColor:
   spaceBetweenTitleText: 25
   buttons:
     - link: docs
-      text: HUGO THEME ZDOC
+      text: BACA PROFILKU
       color: primary
   # backgroundImage: 
   #   src: images/landscape.jpg
@@ -25,45 +25,45 @@ landing:
 sections:
   - bgcolor: teal
     type: card
-    description: "Aku sedang belajar bahasa Jepang. Semoga aku bisa jago dalam bahasa Jepang. Berikut ini adalah hobiku :"
+    description: "Di dalam blog ini, kamu akan menemukan :"
     header: 
-      title: Tentang Aku
+      title: Ada Apa dalam Blog Ini?
       hlcolor: "#8bc34a"
       color: '#fff'
       fontSize: 32
-      width: 220
+      width: 410
     cards:
-      - subtitle: Coding
+      - subtitle: Bahasa Jepang
         subtitlePosition: center
-        description: "Aku suka menulis program komputer."
-        image: images/section/keyboard.png
-        color: white
-        button: 
-          name: Naver
-          link: https://gohugo.io/
-          size: large
-          target: _blank
-          color: 'white'
-          bgcolor: '#283593'
-      - subtitle: Sepak bola
-        subtitlePosition: center
-        description: "Meskipun aku tidak pandai bermain sepak bola, tapi sepak bola tu sangat menyenangkan."
+        description: "Aku sedang belajar dan meningkatkan kemampuan bahasa Jepang."
         image: images/section/processor.png
         color: white
         button: 
-          name: Google
+          name: Ganbatte
           link: https://gohugo.io/
           size: large
           target: _blank
           color: 'white'
           bgcolor: '#283593'
-      - subtitle: Film
+      - subtitle: Code
         subtitlePosition: center
-        description: "Saat luang, aku suka menonton film berbahasa Jepang,"
+        description: "Kumpulan program komputer yang aku pelajari dan aku butuhkan."
+        image: images/section/keyboard.png
+        color: white
+        button: 
+          name: Pemrograman
+          link: https://gohugo.io/
+          size: large
+          target: _blank
+          color: 'white'
+          bgcolor: '#283593'
+      - subtitle: Desain Grafis
+        subtitlePosition: center
+        description: "Cara menggambar berbagai vektor menggunakan Inkscape."
         image: images/section/root-server.png
         color: white
         button: 
-          name: Yahoo
+          name: Inkscape
           link: https://gohugo.io/
           size: large
           target: _blank
@@ -73,50 +73,50 @@ sections:
     type: normal
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
     header:
-      title: Build it with Zdoc
+      title: Tentang Aku
       hlcolor: DarkKhaki
       color: "#fff"
       fontSize: 32
-      width: 340
+      width: 220
     body:
-      subtitle: Extensible and customizable.
+      subtitle: Terlalu santai dalam menghadapi kehidupan.
       subtitlePosition: left
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+      description: "Menganggap semua yang terjadi adalah ujian dari Allah SWT, baik ujian kesenangan maupun ujian kesusahan, dan berusaha berprasangka baik kepada Allah SWT dalam menyikapi keduanya. Pernah menjadi yang terbaik dan pernah menjadi yang terburuk. Namun Allah menyembunyikan keburukan-keburukanku, hingga manusia menanggap aku orang yang baik. Semoga Allah mengampuni dosa-dosaku."
       color: white
       image: images/section/root-server.png
       imagePosition: left
 
 footer:
   sections:
-    - title: General
+    - title: Bahasa Jepang
       links:
-        - title: Docs
+        - title: Kanji
           link: https://gohugo.io/
-        - title: Learn
+        - title: Kosakata
           link: https://gohugo.io/
-        - title: Showcase
+        - title: Percakapan
           link: https://gohugo.io/
-        - title: Blog
+        - title: Tata Bahasa
           link: https://gohugo.io/
-    - title: resources
+    - title: Hobi
       links:
-        - title: GitHub
+        - title: Desain Grafis
           link: https://gohugo.io/
-        - title: Releases
+        - title: Fotografi
           link: https://gohugo.io/
-        - title: Spectrum
+        - title: Menulis
           link: https://gohugo.io/
-        - title: Telemetry
+        - title: Pemrograman
           link: https://gohugo.io/
-    - title: Features
+    - title: Social Media
       links:
-        - title: GitHub
+        - title: Facebook
           link: https://gohugo.io/
-        - title: Releases
+        - title: Instagram
           link: https://gohugo.io/
-        - title: Spectrum
+        - title: Line
           link: https://gohugo.io/
-        - title: Telemetry
+        - title: Twitter
           link: https://gohugo.io/
   contents: 
     align: left

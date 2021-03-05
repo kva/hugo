@@ -5,21 +5,6 @@
   <url>
     <loc>https://kva.github.io/jp/updates/2019_may/</loc>
     <lastmod>2020-01-28T00:10:51+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kva.github.io/updates/2019_may/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://kva.github.io/id/updates/2019_may/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://kva.github.io/jp/updates/2019_may/"
-                />
   </url>
   
   <url>
@@ -28,7 +13,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/gettingstarted/basicusage/"
+                href="https://kva.github.io/en/docs/gettingstarted/basicusage/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -40,21 +25,6 @@
   <url>
     <loc>https://kva.github.io/jp/updates/2019_april/</loc>
     <lastmod>2020-01-28T00:10:48+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kva.github.io/updates/2019_april/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://kva.github.io/id/updates/2019_april/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://kva.github.io/jp/updates/2019_april/"
-                />
   </url>
   
   <url>
@@ -63,7 +33,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/gettingstarted/configuration/"
+                href="https://kva.github.io/en/docs/gettingstarted/configuration/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -75,21 +45,6 @@
   <url>
     <loc>https://kva.github.io/jp/updates/2019_march/</loc>
     <lastmod>2020-01-28T00:10:42+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kva.github.io/updates/2019_march/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://kva.github.io/id/updates/2019_march/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://kva.github.io/jp/updates/2019_march/"
-                />
   </url>
   
   <url>
@@ -98,7 +53,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/gettingstarted/installation/"
+                href="https://kva.github.io/en/docs/gettingstarted/installation/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -110,21 +65,6 @@
   <url>
     <loc>https://kva.github.io/jp/updates/2019_february/</loc>
     <lastmod>2020-01-28T00:10:37+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kva.github.io/updates/2019_february/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://kva.github.io/id/updates/2019_february/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://kva.github.io/jp/updates/2019_february/"
-                />
   </url>
   
   <url>
@@ -133,7 +73,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/gettingstarted/quickstart/"
+                href="https://kva.github.io/en/docs/gettingstarted/quickstart/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -145,21 +85,6 @@
   <url>
     <loc>https://kva.github.io/jp/updates/2019_january/</loc>
     <lastmod>2020-01-28T00:10:09+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kva.github.io/updates/2019_january/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://kva.github.io/id/updates/2019_january/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://kva.github.io/jp/updates/2019_january/"
-                />
   </url>
   
   <url>
@@ -168,7 +93,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/gettingstarted/"
+                href="https://kva.github.io/en/docs/gettingstarted/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -183,7 +108,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/contentmanagement/"
+                href="https://kva.github.io/en/docs/contentmanagement/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -198,7 +123,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/relatedcontent/"
+                href="https://kva.github.io/en/docs/relatedcontent/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -213,7 +138,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/pageresources/"
+                href="https://kva.github.io/en/docs/pageresources/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -228,7 +153,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/pagebundles/"
+                href="https://kva.github.io/en/docs/pagebundles/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -243,7 +168,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/contentfortmats/"
+                href="https://kva.github.io/en/docs/contentfortmats/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -258,7 +183,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/imageprocessing/"
+                href="https://kva.github.io/en/docs/imageprocessing/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -273,7 +198,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/contentmanagement/shortcodes/"
+                href="https://kva.github.io/en/docs/contentmanagement/shortcodes/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -288,7 +213,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/contentmanagement/frontmatter/"
+                href="https://kva.github.io/en/docs/contentmanagement/frontmatter/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -300,21 +225,6 @@
   <url>
     <loc>https://kva.github.io/jp/updates/</loc>
     <lastmod>2020-01-28T00:08:29+09:00</lastmod>
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://kva.github.io/updates/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="id"
-                href="https://kva.github.io/id/updates/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="jp"
-                href="https://kva.github.io/jp/updates/"
-                />
   </url>
   
   <url>
@@ -323,12 +233,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/"
+                href="https://kva.github.io/en/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://kva.github.io/id/"
+                href="https://kva.github.io/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -343,12 +253,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/"
+                href="https://kva.github.io/en/docs/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://kva.github.io/id/docs/"
+                href="https://kva.github.io/docs/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -363,12 +273,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/blog/"
+                href="https://kva.github.io/en/blog/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://kva.github.io/id/blog/"
+                href="https://kva.github.io/blog/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -383,12 +293,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/tags/css/"
+                href="https://kva.github.io/en/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://kva.github.io/id/tags/css/"
+                href="https://kva.github.io/tags/css/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -403,7 +313,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/tags/heru-sularto/"
+                href="https://kva.github.io/en/tags/heru-sularto/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -418,12 +328,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/tags/html/"
+                href="https://kva.github.io/en/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://kva.github.io/id/tags/html/"
+                href="https://kva.github.io/tags/html/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -438,12 +348,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/tags/markdown/"
+                href="https://kva.github.io/en/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://kva.github.io/id/tags/markdown/"
+                href="https://kva.github.io/tags/markdown/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -458,12 +368,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/blog/markdown-syntax/"
+                href="https://kva.github.io/en/blog/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://kva.github.io/id/blog/markdown-syntax/"
+                href="https://kva.github.io/blog/markdown-syntax/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -478,7 +388,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/docs/contentmanagement/sections/"
+                href="https://kva.github.io/en/docs/contentmanagement/sections/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -493,12 +403,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/tags/themes/"
+                href="https://kva.github.io/en/tags/themes/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://kva.github.io/id/tags/themes/"
+                href="https://kva.github.io/tags/themes/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -513,7 +423,7 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/profile/"
+                href="https://kva.github.io/en/profile/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -528,12 +438,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/blog/placeholder-text/"
+                href="https://kva.github.io/en/blog/placeholder-text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://kva.github.io/id/blog/placeholder-text/"
+                href="https://kva.github.io/blog/placeholder-text/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -548,12 +458,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/tags/text/"
+                href="https://kva.github.io/en/tags/text/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://kva.github.io/id/tags/text/"
+                href="https://kva.github.io/tags/text/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -568,12 +478,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/tags/emoji/"
+                href="https://kva.github.io/en/tags/emoji/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://kva.github.io/id/tags/emoji/"
+                href="https://kva.github.io/tags/emoji/"
                 />
     <xhtml:link
                 rel="alternate"
@@ -588,12 +498,12 @@
     <xhtml:link
                 rel="alternate"
                 hreflang="en"
-                href="https://kva.github.io/blog/emoji-support/"
+                href="https://kva.github.io/en/blog/emoji-support/"
                 />
     <xhtml:link
                 rel="alternate"
                 hreflang="id"
-                href="https://kva.github.io/id/blog/emoji-support/"
+                href="https://kva.github.io/blog/emoji-support/"
                 />
     <xhtml:link
                 rel="alternate"

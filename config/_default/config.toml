@@ -2,7 +2,7 @@ baseURL = "https://kva.github.io/"
 title = "Heru Sularto"
 theme = "hugo-theme-zdoc"
 
-defaultContentLanguage = "en"
+defaultContentLanguage = "id"
 defaultContentLanguageInSubdir = false
 hasCJKLanguage = false
 
