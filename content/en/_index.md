@@ -1,129 +1,129 @@
 ---
-title: Heru Sularto
-description: Heru Sularto, this is my personal journal.
+title: eR
+description: kva.github.io, this is my personal blog.
 date: 2020-01-26T04:15:05+09:00
 draft: false
-# updatesBanner: "From today, I start to write&nbsp;[here](https://kva.github.io/)." 
+# updatesBanner: "Mulai hari ini, aku menulis&nbsp;[di sini](https://kva.github.io/)." 
 landing:
   height: 500
   image: favicon/android-icon-192x192.png
   title:
-    - Hello
+    - eR
   text:
-    - You can call me eR. Nice to meet you.
+    - Hello, you can call me eR.
   titleColor:
   textColor:
   spaceBetweenTitleText: 25
   buttons:
     - link: docs
-      text: HUGO THEME ZDOC
+      text: ABOUT ER
       color: primary
   # backgroundImage: 
   #   src: images/landscape.jpg
   #   height: 600
 
 sections:
-  - bgcolor: teal
+  - bgcolor: '#217844'
     type: card
-    description: "I'm learning Japanese language. I'm hoping I can become expert in Japanese language. My hobby is :"
+    description: "In this blog, you will find my various articles about :"
     header: 
-      title: About Me
-      hlcolor: "#8bc34a"
+      title: Content of This Blog
+      hlcolor: "#16502d"
       color: '#fff'
       fontSize: 32
-      width: 220
+      width: 180
     cards:
+      - subtitle: Japanese
+        subtitlePosition: center
+        description: "Currently, I am studying and improving Japanese language skill."
+        image: images/section/fuji-mountain.svg
+        color: white
+        button: 
+          name: Good Luck!
+          link: docs/japanese/
+          size: large
+          target: _blank
+          color: 'white'
+          bgcolor: '#0b2817'
       - subtitle: Coding
         subtitlePosition: center
-        description: "I like to write program of computer."
-        image: images/section/keyboard.png
+        description: "Archive of my computer program. Some of it it was done, and some in progress."
+        image: images/section/coding.svg
         color: white
         button: 
-          name: Naver
-          link: https://gohugo.io/
+          name: Programming
+          link: docs/programming/
           size: large
           target: _blank
           color: 'white'
-          bgcolor: '#283593'
-      - subtitle: Soccer
+          bgcolor: '#0b2817'
+      - subtitle: Graphic Design
         subtitlePosition: center
-        description: "Although I am not good at play soccer, but soccer is very interesting."
-        image: images/section/processor.png
+        description: "My vector archive, and tutorial to draw some vector using Inkscape."
+        image: images/section/design.svg
         color: white
         button: 
-          name: Google
-          link: https://gohugo.io/
+          name: Inkscape
+          link: docs/graphicdesign/
           size: large
           target: _blank
           color: 'white'
-          bgcolor: '#283593'
-      - subtitle: Film
-        subtitlePosition: center
-        description: "When I have leisure time, i like to watch Japanese Film."
-        image: images/section/root-server.png
-        color: white
-        button: 
-          name: Yahoo
-          link: https://gohugo.io/
-          size: large
-          target: _blank
-          color: 'white'
-          bgcolor: '#283593'
-  - bgcolor: DarkSlateBlue
+          bgcolor: '#0b2817'
+  - bgcolor: '#16502d'
     type: normal
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+    description: ""
     header:
-      title: Build it with Zdoc
-      hlcolor: DarkKhaki
+      title: About Me
+      hlcolor: '#217844'
       color: "#fff"
       fontSize: 32
-      width: 340
+      width: 220
     body:
-      subtitle: Extensible and customizable.
+      subtitle: Face life with ease
       subtitlePosition: left
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+      description: "All that happen in this world is the trial from Allah, it can be ease trial or hardship trial. That's why I try to accept both with smile. I ever be the best, and ever be the worst. But Allah covers my bad, so people think that I m goog person. May Allah forgive my sins."
       color: white
-      image: images/section/root-server.png
+      image: images/section/avatar.svg
       imagePosition: left
 
 footer:
   sections:
-    - title: General
+    - title: Japanese Language
       links:
-        - title: Docs
+        - title: Kanji
           link: https://gohugo.io/
-        - title: Learn
+        - title: Vocabularies
           link: https://gohugo.io/
-        - title: Showcase
+        - title: Conversation
           link: https://gohugo.io/
-        - title: Blog
+        - title: Grammar
           link: https://gohugo.io/
-    - title: resources
+    - title: Hobby
       links:
-        - title: GitHub
+        - title: Graphic Design
           link: https://gohugo.io/
-        - title: Releases
+        - title: Photograph
           link: https://gohugo.io/
-        - title: Spectrum
+        - title: Writing
           link: https://gohugo.io/
-        - title: Telemetry
+        - title: Programming
           link: https://gohugo.io/
-    - title: Features
+    - title: Social Media
       links:
-        - title: GitHub
+        - title: Facebook
           link: https://gohugo.io/
-        - title: Releases
+        - title: Instagram
           link: https://gohugo.io/
-        - title: Spectrum
+        - title: Line
           link: https://gohugo.io/
-        - title: Telemetry
+        - title: Twitter
           link: https://gohugo.io/
   contents: 
     align: left
     applySinglePageCss: false
     markdown:
       |
-      ## Zzo docs
-      Copyright © 2020. All rights reserved.
+      ## eR | kva.github.io
+      Thank you for your kindness.
 
 ---
