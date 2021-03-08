@@ -1,7 +1,7 @@
 logo = true
 logoText = "eR"
 logoType = "short" # long, short
-description = "My personal blog."
+description = "Be Happy With What You Have"
 
 themeOptions = ["light", "dark"]
 

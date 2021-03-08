@@ -2,7 +2,6 @@
 title: "Using Furigana in Hugo"
 description: "Furigana adalah huruf hiragana di atas huruf kanji yang berguna sebagai cara membaca kanji"
 date: 2020-01-28T00:36:19+09:00
-draft: false
 ---
 
 ## Furigana dalam Hugo

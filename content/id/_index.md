@@ -23,12 +23,12 @@ landing:
   #   height: 600
 
 sections:
-  - bgcolor: teal
+  - bgcolor: '#217844'
     type: card
     description: "Di dalam blog ini, kamu akan menemukan berbagai tulisanku tentang :"
     header: 
       title: Isi Blog Ini
-      hlcolor: "#8bc34a"
+      hlcolor: "#16502d"
       color: '#fff'
       fontSize: 32
       width: 180
@@ -36,45 +36,45 @@ sections:
       - subtitle: Bahasa Jepang
         subtitlePosition: center
         description: "Aku sedang mempelajari dan meningkatkan kemampuan bahasa Jepang."
-        image: images/section/processor.png
+        image: images/section/fuji-mountain.svg
         color: white
         button: 
           name: Semangat!
-          link: https://gohugo.io/
+          link: docs/japanese/
           size: large
           target: _blank
           color: 'white'
-          bgcolor: '#283593'
+          bgcolor: '#0b2817'
       - subtitle: Code
         subtitlePosition: center
         description: "Kumpulan program komputer yang sedang aku kerjakan, aku pelajari, dan aku butuhkan."
-        image: images/section/keyboard.png
+        image: images/section/coding.svg
         color: white
         button: 
           name: Pemrograman
-          link: https://gohugo.io/
+          link: docs/programming/
           size: large
           target: _blank
           color: 'white'
-          bgcolor: '#283593'
+          bgcolor: '#0b2817'
       - subtitle: Desain Grafis
         subtitlePosition: center
         description: "Arsip gambar dan cara menggambar berbagai vektor menggunakan Inkscape."
-        image: images/section/root-server.png
+        image: images/section/design.svg
         color: white
         button: 
           name: Inkscape
-          link: https://gohugo.io/
+          link: docs/graphicdesign/
           size: large
           target: _blank
           color: 'white'
-          bgcolor: '#283593'
-  - bgcolor: DarkSlateBlue
+          bgcolor: '#0b2817'
+  - bgcolor: '#16502d'
     type: normal
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
     header:
       title: Tentang Aku
-      hlcolor: DarkKhaki
+      hlcolor: '#217844'
       color: "#fff"
       fontSize: 32
       width: 220
@@ -83,7 +83,7 @@ sections:
       subtitlePosition: left
       description: "Menganggap semua yang terjadi adalah ujian dari Allah SWT, baik ujian kesenangan maupun ujian kesusahan, dan berusaha berprasangka baik kepada Allah SWT dalam menyikapi keduanya. Pernah menjadi yang terbaik dan pernah menjadi yang terburuk. Namun Allah menyembunyikan keburukan-keburukanku, hingga manusia menanggap aku orang yang baik. Semoga Allah mengampuni dosa-dosaku."
       color: white
-      image: images/section/root-server.png
+      image: images/section/avatar.svg
       imagePosition: left
 
 footer:

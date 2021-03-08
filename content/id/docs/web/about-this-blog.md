@@ -80,4 +80,3 @@ Bahasa Jawa     |
 ### Repository yang Digunakan
 - Hugo Files : [/hugo](https://github.com/kva/hugo)
 - Web : [/kva.github.io](https://github.com/kva/kva.github.io)
-
