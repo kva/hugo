@@ -1,129 +1,129 @@
 ---
-title: ヘルスラルと
-description: ヘルスラルト、これは私の日記です。
+title: eR
+description: これは私のブログです.
 date: 2020-01-26T04:15:05+09:00
 draft: false
-# updatesBanner: "<ruby>今日<rp>(</rp><rt>きょう</rt><rp>)</rp><ruby>から、&nbsp; [ここで](https://kva.github.io/) &nbsp; <ruby>書<rp>(</rp><rt>か</rt><rp>)</rp><ruby>く<ruby>始<rp>(</rp><rt>はじ</rt><rp>)</rp><ruby>まります。" 
+# updatesBanner: "Mulai hari ini, aku menulis&nbsp;[di sini](https://kva.github.io/)." 
 landing:
   height: 500
   image: favicon/android-icon-192x192.png
   title:
-    - 初めまして
+    - eR
   text:
-    - 私はエルです。よろしくお願いします。
+    - 初めまして。私はエルともうします。
   titleColor:
   textColor:
   spaceBetweenTitleText: 25
   buttons:
     - link: docs
-      text: HUGO THEME ZDOC
+      text: 私について
       color: primary
   # backgroundImage: 
   #   src: images/landscape.jpg
   #   height: 600
 
 sections:
-  - bgcolor: teal
+  - bgcolor: '#217844'
     type: card
-    description: "<ruby>私 <rp>(</rp><rt>わたし</rt><rp>)</rp></ruby>は<ruby>日本語 <rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby>を<ruby>勉強 <rp>(</rp><rt>べんきょう</rt><rp>)</rp></ruby>しています。<ruby>日本語 <rp>(</rp><rt>にほんご</rt><rp>)</rp></ruby>が上手になるように願っています。私の趣味は"
+    description: "このブログの中で、君は以下のものを見つける："
     header: 
-      title: 私について
-      hlcolor: "#8bc34a"
+      title: このブログの内容
+      hlcolor: "#16502d"
       color: '#fff'
       fontSize: 32
-      width: 220
+      width: 260
     cards:
-      - subtitle: コデイング
+      - subtitle: 日本語
         subtitlePosition: center
-        description: "コンピューターのソフトウェア書くことが好きです。"
-        image: images/section/keyboard.png
+        description: "私は日本語を勉強して、向上させています"
+        image: images/section/fuji-mountain.svg
         color: white
         button: 
-          name: Naver
-          link: https://gohugo.io/
+          name: 頑張って!
+          link: docs/japanese/
           size: large
           target: _blank
           color: 'white'
-          bgcolor: '#283593'
-      - subtitle: サッカー
+          bgcolor: '#0b2817'
+      - subtitle: コーディング
         subtitlePosition: center
-        description: "サッカーが上手じゃなくても、とても面白いです。"
-        image: images/section/processor.png
+        description: "私が取り組んでいるコンピュータプログラムのアーカイブ、私は勉強していて、必要です。"
+        image: images/section/coding.svg
         color: white
         button: 
-          name: Google
-          link: https://gohugo.io/
+          name: プログラミング
+          link: docs/programming/
           size: large
           target: _blank
           color: 'white'
-          bgcolor: '#283593'
-      - subtitle: 映画
+          bgcolor: '#0b2817'
+      - subtitle: グラフィックデザイン
         subtitlePosition: center
-        description: "暇な時、日本の映画を見ることが好きです。"
-        image: images/section/root-server.png
+        description: "私の絵のアーカイブしかも Inkscape を使用してベクトルを描く方法。"
+        image: images/section/design.svg
         color: white
         button: 
-          name: Yahoo
-          link: https://gohugo.io/
+          name: Inkscape
+          link: docs/graphicdesign/
           size: large
           target: _blank
           color: 'white'
-          bgcolor: '#283593'
-  - bgcolor: DarkSlateBlue
+          bgcolor: '#0b2817'
+  - bgcolor: '#16502d'
     type: normal
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
     header:
-      title: Build it with Zdoc
-      hlcolor: DarkKhaki
+      title: 私について
+      hlcolor: '#217844'
       color: "#fff"
       fontSize: 32
-      width: 340
+      width: 220
     body:
-      subtitle: Extensible and customizable.
+      subtitle: 生活の中でリラックスしすぎです。
       subtitlePosition: left
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce id eleifend erat. Integer eget mattis augue. Suspendisse semper laoreet tortor sed convallis. Nulla ac euismod lorem"
+      description: "私の神はアッラーです。 起こったことはすべて、喜びの試練と困難の試練の両方である、アッラーからの試練だったと思います。 私はいつもこの試練の両方に親切になるように努めています。私は最高で、最悪でした。しかし、アッラーは私の罪を隠しているので、人々は私が良い人だと思っています。 アッラーが私の罪を赦してくださいますように。"
       color: white
-      image: images/section/root-server.png
+      image: images/section/avatar.svg
       imagePosition: left
 
 footer:
   sections:
-    - title: General
+    - title: 日本語
       links:
-        - title: Docs
+        - title: 漢字
           link: https://gohugo.io/
-        - title: Learn
+        - title: 単語
           link: https://gohugo.io/
-        - title: Showcase
+        - title: 会話
           link: https://gohugo.io/
-        - title: Blog
+        - title: 文法
           link: https://gohugo.io/
-    - title: resources
+    - title: 趣味
       links:
-        - title: GitHub
+        - title: グラフィックデザイン
           link: https://gohugo.io/
-        - title: Releases
+        - title: 写真撮影
           link: https://gohugo.io/
-        - title: Spectrum
+        - title: 書く
           link: https://gohugo.io/
-        - title: Telemetry
+        - title: プログラミング
           link: https://gohugo.io/
-    - title: Features
+    - title: ソーシャルメディア
       links:
-        - title: GitHub
+        - title: フェイスブック
           link: https://gohugo.io/
-        - title: Releases
+        - title: インスタグラム
           link: https://gohugo.io/
-        - title: Spectrum
+        - title: ライン
           link: https://gohugo.io/
-        - title: Telemetry
+        - title: ツイッター
           link: https://gohugo.io/
   contents: 
     align: left
     applySinglePageCss: false
     markdown:
       |
-      ## Zzo docs
-      Copyright © 2020. All rights reserved.
+      ## eR | kva.github.io
+      何卒よろしくお願い申し上げます。
 
 ---

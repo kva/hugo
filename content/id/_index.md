@@ -45,7 +45,7 @@ sections:
           target: _blank
           color: 'white'
           bgcolor: '#0b2817'
-      - subtitle: Code
+      - subtitle: Coding
         subtitlePosition: center
         description: "Kumpulan program komputer yang sedang aku kerjakan, aku pelajari, dan aku butuhkan."
         image: images/section/coding.svg
