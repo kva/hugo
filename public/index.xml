@@ -119,13 +119,25 @@ Homepage Konten:
       </item>
       
       <item>
+        <title>Membuat Situs dari File Markdown</title>
+        <link>https://kva.github.io/docs/web/convert-github-markdown-to-a-simple-site/</link>
+        <pubDate>Fri, 05 Mar 2021 04:16:45 +0700</pubDate>
+        
+        <guid>https://kva.github.io/docs/web/convert-github-markdown-to-a-simple-site/</guid>
+        <description>File-file .md (Markdown) yang ada di repositori dapat dijadikan halaman web tanpa mengubahnya sama sekali.
+Tahapan  Tentukan repositori yang akan diaktifkan sebagai Github Pages. Buat file _.config.yml
+Berikut ini adalah konten yang perlu ditempel di file _.config.yml:  1 2 3 4 5 6 7 8 9 10 11 12 13 14  plugins:- jekyll-relative-linksrelative_links:enabled:truecollections:trueinclude:- CONTRIBUTING.md- README.md- LICENSE.md- COPYING.md- CODE_OF_CONDUCT.md- CONTRIBUTING.md- ISSUE_TEMPLATE.md- PULL_REQUEST_TEMPLATE.md  Pada dasarnya ini hanya konfigurasi standar Github Pages untuk menangani file-file Markdown.</description>
+      </item>
+      
+      <item>
         <title>Otomatis Deploy Github Pages Dengan Hugo Dan Actions</title>
         <link>https://kva.github.io/docs/web/otomatis-deploy-github-pages-dengan-hugo-dan-actions/</link>
         <pubDate>Fri, 05 Mar 2021 04:16:45 +0700</pubDate>
         
         <guid>https://kva.github.io/docs/web/otomatis-deploy-github-pages-dengan-hugo-dan-actions/</guid>
         <description>Deploy Github Pages dengan Hugo dan Github Actions Persiapan Diasumsikan bahwa kamu telah tahu cara membuat
- Github Pages Web Hugo di lokal komputer  </description>
+ Github Pages Web Hugo di lokal komputer  Tahapan Dalam membangun dan menerbitkan situs web, aku menggunakan action-gh-pages. Ada dua cara penggunaan action-gh-pages:
+ Menggunakan repositori tunggal Menggunakan beberapa repositori  Dalam tulisan ini, aku menggunakan beberapa repositori. Konsepnya adalah satu repositori untuk menyimpan Hugo Sumber, dan satu repository meng-clone file yang telah di-generate oleh Hugo di folder public.</description>
       </item>
       
       <item>
@@ -197,6 +209,16 @@ Misalnya:</description>
 Non-Live Mode Non-Live mode is when the clock icon is inside a folder, in Spotlight, Siri, Anemone&amp;rsquo;s preview, etc. This non-live mode may be themed by using the Bundles/ method on the icon itself or with IconBundles.
 Background (Live Mode) The clock icon background may be themed with Anemone&amp;rsquo;s car support.
 Clock Hands &amp;amp; Dots (Live Mode) Anemone supports theming the clock hands.</description>
+      </item>
+      
+      <item>
+        <title>Menyimpan IPA dari Perangkat iOS</title>
+        <link>https://kva.github.io/docs/operatingsystem/iospackagedev/saveipafromios/</link>
+        <pubDate>Tue, 28 Jan 2020 00:36:19 +0900</pubDate>
+        
+        <guid>https://kva.github.io/docs/operatingsystem/iospackagedev/saveipafromios/</guid>
+        <description>Ada beberapa cara untuk menyimpan aplikasi dari perangkat iOS, salah satunya adalah dengan menggunakan frida-ios-dump.
+Tahapan Dalam perangkat iOS  Perangkat sudah di-jailbreak Tambahkan repo https://build.frida.re di Cydia Pasang tweak Frida  Dalam komputer  Pasang Frida  1  pip3 install frida-tools    Pasang frida-ios-dump  1 2 3  git clone https://github.com/AloneMonkey/frida-ios-dump.git cd frida-ios-dump pip3 install -r requirements.txt --upgrade    Install usbmuxd  1  brew install usbmuxd    Hubungkan perangkat menggunakan ssh  1 2  iproxy 2222 44 &amp;amp; sleep 3 ssh -p 2222 root@localhost # default password: alpine    Buka terminal baru dan dapatkan .</description>
       </item>
       
       <item>

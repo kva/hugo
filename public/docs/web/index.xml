@@ -43,13 +43,25 @@ Homepage Konten:
       </item>
       
       <item>
+        <title>Membuat Situs dari File Markdown</title>
+        <link>https://kva.github.io/docs/web/convert-github-markdown-to-a-simple-site/</link>
+        <pubDate>Fri, 05 Mar 2021 04:16:45 +0700</pubDate>
+        
+        <guid>https://kva.github.io/docs/web/convert-github-markdown-to-a-simple-site/</guid>
+        <description>File-file .md (Markdown) yang ada di repositori dapat dijadikan halaman web tanpa mengubahnya sama sekali.
+Tahapan  Tentukan repositori yang akan diaktifkan sebagai Github Pages. Buat file _.config.yml
+Berikut ini adalah konten yang perlu ditempel di file _.config.yml:  1 2 3 4 5 6 7 8 9 10 11 12 13 14  plugins:- jekyll-relative-linksrelative_links:enabled:truecollections:trueinclude:- CONTRIBUTING.md- README.md- LICENSE.md- COPYING.md- CODE_OF_CONDUCT.md- CONTRIBUTING.md- ISSUE_TEMPLATE.md- PULL_REQUEST_TEMPLATE.md  Pada dasarnya ini hanya konfigurasi standar Github Pages untuk menangani file-file Markdown.</description>
+      </item>
+      
+      <item>
         <title>Otomatis Deploy Github Pages Dengan Hugo Dan Actions</title>
         <link>https://kva.github.io/docs/web/otomatis-deploy-github-pages-dengan-hugo-dan-actions/</link>
         <pubDate>Fri, 05 Mar 2021 04:16:45 +0700</pubDate>
         
         <guid>https://kva.github.io/docs/web/otomatis-deploy-github-pages-dengan-hugo-dan-actions/</guid>
         <description>Deploy Github Pages dengan Hugo dan Github Actions Persiapan Diasumsikan bahwa kamu telah tahu cara membuat
- Github Pages Web Hugo di lokal komputer  </description>
+ Github Pages Web Hugo di lokal komputer  Tahapan Dalam membangun dan menerbitkan situs web, aku menggunakan action-gh-pages. Ada dua cara penggunaan action-gh-pages:
+ Menggunakan repositori tunggal Menggunakan beberapa repositori  Dalam tulisan ini, aku menggunakan beberapa repositori. Konsepnya adalah satu repositori untuk menyimpan Hugo Sumber, dan satu repository meng-clone file yang telah di-generate oleh Hugo di folder public.</description>
       </item>
       
       <item>

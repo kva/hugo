@@ -95,6 +95,16 @@ Background (Live Mode) The clock icon background may be themed with Anemone&amp;
 Clock Hands &amp;amp; Dots (Live Mode) Anemone supports theming the clock hands.</description>
       </item>
       
+      <item>
+        <title>Menyimpan IPA dari Perangkat iOS</title>
+        <link>https://kva.github.io/docs/operatingsystem/iospackagedev/saveipafromios/</link>
+        <pubDate>Tue, 28 Jan 2020 00:36:19 +0900</pubDate>
+        
+        <guid>https://kva.github.io/docs/operatingsystem/iospackagedev/saveipafromios/</guid>
+        <description>Ada beberapa cara untuk menyimpan aplikasi dari perangkat iOS, salah satunya adalah dengan menggunakan frida-ios-dump.
+Tahapan Dalam perangkat iOS  Perangkat sudah di-jailbreak Tambahkan repo https://build.frida.re di Cydia Pasang tweak Frida  Dalam komputer  Pasang Frida  1  pip3 install frida-tools    Pasang frida-ios-dump  1 2 3  git clone https://github.com/AloneMonkey/frida-ios-dump.git cd frida-ios-dump pip3 install -r requirements.txt --upgrade    Install usbmuxd  1  brew install usbmuxd    Hubungkan perangkat menggunakan ssh  1 2  iproxy 2222 44 &amp;amp; sleep 3 ssh -p 2222 root@localhost # default password: alpine    Buka terminal baru dan dapatkan .</description>
+      </item>
+      
     
   </channel>
 </rss>

@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Otomatis Deploy Github Pages Dengan Hugo Dan Actions – eR</title>
+    <title>Membuat Situs dari File Markdown – eR</title>
     
 
 
@@ -30,7 +30,7 @@
     
     var baseurl = JSON.parse("\"https://kva.github.io/\"");
     
-    var permalink = JSON.parse("\"https://kva.github.io/docs/web/otomatis-deploy-github-pages-dengan-hugo-dan-actions/\"");
+    var permalink = JSON.parse("\"https://kva.github.io/docs/web/convert-github-markdown-to-a-simple-site/\"");
 
     
     var toggleSidebarElem = document.getElementById("toggle-sidebar");
@@ -1072,21 +1072,21 @@
 <link rel="stylesheet" href="/css/main.min.css">
 
 
-    <meta name="description" content="" />
+    <meta name="description" content="Cara mudah membuat web yang sederhana" />
 <meta name="keywords" content="">
 <meta name="created" content="2021-03-05T04:16:45&#43;0700">
 <meta name="modified" content="2021-03-05T04:16:45&#43;0700">
 
 
 <meta property="og:site_name" content="eR">
-<meta property="og:title" content="Otomatis Deploy Github Pages Dengan Hugo Dan Actions">
-<meta property="og:url" content="https://kva.github.io/docs/web/otomatis-deploy-github-pages-dengan-hugo-dan-actions/">
+<meta property="og:title" content="Membuat Situs dari File Markdown">
+<meta property="og:url" content="https://kva.github.io/docs/web/convert-github-markdown-to-a-simple-site/">
 <meta property="og:type" content="article">
 
 <meta name="generator" content="Hugo 0.81.0" />
 <meta name="msapplication-TileColor" content="#ffffff">
 <meta name="theme-color" content="#ffffff">
-<link rel="canonical" href="https://kva.github.io/docs/web/otomatis-deploy-github-pages-dengan-hugo-dan-actions/">
+<link rel="canonical" href="https://kva.github.io/docs/web/convert-github-markdown-to-a-simple-site/">
 <link rel="manifest" href="/manifest.json">
 
   <link rel="apple-touch-icon" sizes="57x57" href="/favicon/apple-icon-57x57.png">
@@ -1110,11 +1110,11 @@
   {
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "headline": "Otomatis Deploy Github Pages Dengan Hugo Dan Actions",
+    "headline": "Membuat Situs dari File Markdown",
     "datePublished": "2021-03-05T04:16:45+07:00",
     "dateModified": "2021-03-05T04:16:45+07:00",
-    "url" : "https://kva.github.io/docs/web/otomatis-deploy-github-pages-dengan-hugo-dan-actions/",
-    "description": "Deploy Github Pages dengan Hugo dan Github Actions Persiapan Diasumsikan bahwa kamu telah tahu cara membuat  Github Pages Web Hugo di lokal komputer  Tahapan Dalam …",
+    "url" : "https://kva.github.io/docs/web/convert-github-markdown-to-a-simple-site/",
+    "description": "Cara mudah membuat web yang sederhana",
     "mainEntityOfPage": {
       "@type": "WebPage",
       "@id": "https://kva.github.io/"
@@ -1163,7 +1163,7 @@
     <div class="menu">
   <h6 class="menu__label">
     
-      Otomatis Deploy Github Pages Dengan Hugo Dan Actions
+      Membuat Situs dari File Markdown
     
   </h6>
   <ul>
@@ -1494,7 +1494,7 @@
         
           
             
-              <a href="https://kva.github.io/docs/web/otomatis-deploy-github-pages-dengan-hugo-dan-actions/" data-lang="id" class="lang__dropdown--item active">Indonesia</a>
+              <a href="https://kva.github.io/docs/web/convert-github-markdown-to-a-simple-site/" data-lang="id" class="lang__dropdown--item active">Indonesia</a>
             
           
         
@@ -1611,7 +1611,7 @@
   <div class="header__wrapper bgcolor__header">
     <div class="divider">
       <div class="lmr">
-        <h2 class="title">Otomatis Deploy Github Pages Dengan Hugo Dan Actions</h2>
+        <h2 class="title">Membuat Situs dari File Markdown</h2>
       </div>
     </div>
   </div>
@@ -1654,7 +1654,7 @@
   
   <li  class="is-active" >
     
-      <span>Otomatis Deploy Github Pages Dengan Hugo Dan Actions</span>
+      <span>Membuat Situs dari File Markdown</span>
     
   </li>
   
@@ -1696,7 +1696,7 @@
         <div class="menu">
   <h6 class="menu__label">
     
-      Otomatis Deploy Github Pages Dengan Hugo Dan Actions
+      Membuat Situs dari File Markdown
     
   </h6>
   <ul>
@@ -1829,58 +1829,12 @@
   
 
   <article class="single__contents" data-dir="ltr">
-    <h1 id="deploy-github-pages-dengan-hugo-dan-github-actions">Deploy Github Pages dengan Hugo dan Github Actions</h1>
-<h2 id="persiapan">Persiapan</h2>
-<p>Diasumsikan bahwa kamu telah tahu cara membuat</p>
-<ul>
-<li>Github Pages</li>
-<li>Web Hugo di lokal komputer</li>
-</ul>
+    <p>File-file .md (Markdown) yang ada di repositori dapat dijadikan halaman web tanpa mengubahnya sama sekali.</p>
 <h2 id="tahapan">Tahapan</h2>
-<p>Dalam membangun dan menerbitkan situs web, aku menggunakan <a href="https://github.com/peaceiris/actions-gh-pages" target="_blank">action-gh-pages</a>. Ada dua cara penggunaan action-gh-pages:</p>
 <ol>
-<li>Menggunakan repositori tunggal</li>
-<li>Menggunakan beberapa repositori</li>
-</ol>
-<p>Dalam  tulisan ini, aku menggunakan beberapa repositori. Konsepnya adalah satu repositori untuk menyimpan <em>Hugo Sumber</em>, dan satu repository meng-<em>clone</em> file yang telah di-<em>generate</em> oleh Hugo di folder <code>public</code>.</p>
-<h3 id="syarat">Syarat</h3>
-<ol>
-<li>Membuat dan mengkonfigurasi Github Pages</li>
-<li>Membuat repositori untuk file-fie <em>Hugo Sumber</em></li>
-<li>Membangun situs Hugo (<code>hugo new site bismillah</code>)</li>
-<li>Menguji situs Hugo (<code>hugo server -D</code>)</li>
-</ol>
-<h3 id="mengonfigurasi-github-actions">Mengonfigurasi Github Actions</h3>
-<p>Mengatur <em>key</em> pada kedua repositori agar bisa situs bisa diterbitkan.</p>
-<ol>
-<li>Dapatkan <em>deploy key</em> dengan perintah berikut:</li>
-</ol>
-<div class="highlight"><div class="chroma">
-<table class="lntable"><tr><td class="lntd">
-<pre class="chroma"><code><span class="lnt">1
-</span><span class="lnt">2
-</span><span class="lnt">3
-</span><span class="lnt">4
-</span></code></pre></td>
-<td class="lntd">
-<pre class="chroma"><code class="language-bash" data-lang="bash">ssh-keygen -t rsa -b <span class="m">4096</span> -C <span class="s2">&#34;</span><span class="k">$(</span>git config user.email<span class="k">)</span><span class="s2">&#34;</span> -f master -N <span class="s2">&#34;&#34;</span>
-<span class="c1"># You will get 2 files:</span>
-<span class="c1">#   master.pub (public key)</span>
-<span class="c1">#   master     (private key)</span>
-</code></pre></td></tr></table>
-</div>
-</div><ol start="2">
-<li>
-<p>Tambahkan <em>private key</em> dengan nama ACTIONS_DEPLOY_KEY dalam repositori sumber.<br />
-Masuk ke <em>Repositori Sumber &gt; Settings &gt; Secrets &gt; Add new secrets</em> dan beri nama ACTIONS_DEPLOY_KEY lalu tempel dari apa yang ada dalam file <code>master</code>.</p>
-</li>
-<li>
-<p>Tambahkan <em>public key</em> sebagai <em>deployment key</em> dalam Github Pages yang akan diterbitkan misalnya repository kva.github.io.<br />
-Masuk ke <em>Repository Github Pages &gt; Settings &gt; Deploy Key &gt; Add new deploy key</em> dan atur nama file yang sesuai dengan <em>private key</em> (misalnya: Publik Key untuk deploy situs), lalu tempel dari konten yang ada di file <code>master.pub</code>.</p>
-</li>
-<li>
-<p>Tambahkan file berikut: <code>.github/workflows/pages.yml</code> di repositori Hugo Sumber dan ganti <em>username/external-repository</em> dengan username dan nama repositori milikmu.</p>
-</li>
+<li>Tentukan repositori yang akan diaktifkan sebagai Github Pages.</li>
+<li>Buat file <code>_.config.yml</code><br />
+Berikut ini adalah konten yang perlu ditempel di file <code>_.config.yml</code>:</li>
 </ol>
 <div class="highlight"><div class="chroma">
 <table class="lntable"><tr><td class="lntd">
@@ -1898,69 +1852,38 @@ Masuk ke <em>Repository Github Pages &gt; Settings &gt; Deploy Key &gt; Add new 
 </span><span class="lnt">12
 </span><span class="lnt">13
 </span><span class="lnt">14
-</span><span class="lnt">15
-</span><span class="lnt">16
-</span><span class="lnt">17
-</span><span class="lnt">18
-</span><span class="lnt">19
-</span><span class="lnt">20
-</span><span class="lnt">21
-</span><span class="lnt">22
-</span><span class="lnt">23
-</span><span class="lnt">24
-</span><span class="lnt">25
-</span><span class="lnt">26
-</span><span class="lnt">27
-</span><span class="lnt">28
-</span><span class="lnt">29
-</span><span class="lnt">30
-</span><span class="lnt">31
-</span><span class="lnt">32
-</span><span class="lnt">33
 </span></code></pre></td>
 <td class="lntd">
-<pre class="chroma"><code class="language-yml" data-lang="yml"><span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">hugo publish</span><span class="w">
-</span><span class="w">
-</span><span class="w"></span><span class="nt">on</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="nt">push</span><span class="p">:</span><span class="w">
-</span><span class="w">    </span><span class="nt">branches</span><span class="p">:</span><span class="w">
-</span><span class="w">    </span>- <span class="l">master</span><span class="w">
-</span><span class="w">
-</span><span class="w"></span><span class="nt">jobs</span><span class="p">:</span><span class="w">
-</span><span class="w">  </span><span class="nt">build-deploy</span><span class="p">:</span><span class="w">
-</span><span class="w">    </span><span class="nt">runs-on</span><span class="p">:</span><span class="w"> </span><span class="l">ubuntu-18.04</span><span class="w">
-</span><span class="w">    </span><span class="nt">steps</span><span class="p">:</span><span class="w">
-</span><span class="w">    </span>- <span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">actions/checkout@v1</span><span class="w">
-</span><span class="w">      </span><span class="c"># with:</span><span class="w">
-</span><span class="w">      </span><span class="c">#   submodules: true</span><span class="w">
-</span><span class="w">
-</span><span class="w">    </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Setup Hugo</span><span class="w">
-</span><span class="w">      </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-hugo@v2</span><span class="w">
-</span><span class="w">      </span><span class="nt">with</span><span class="p">:</span><span class="w">
-</span><span class="w">        </span><span class="nt">hugo-version</span><span class="p">:</span><span class="w"> </span><span class="s1">&#39;0.59.1&#39;</span><span class="w">
-</span><span class="w">
-</span><span class="w">    </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Build</span><span class="w">
-</span><span class="w">      </span><span class="nt">run</span><span class="p">:</span><span class="w"> </span><span class="l">hugo --minify</span><span class="w">
-</span><span class="w">
-</span><span class="w">    </span>- <span class="nt">name</span><span class="p">:</span><span class="w"> </span><span class="l">Deploy</span><span class="w">
-</span><span class="w">      </span><span class="nt">uses</span><span class="p">:</span><span class="w"> </span><span class="l">peaceiris/actions-gh-pages@v2</span><span class="w">
-</span><span class="w">      </span><span class="nt">env</span><span class="p">:</span><span class="w">
-</span><span class="w">        </span><span class="nt">ACTIONS_DEPLOY_KEY</span><span class="p">:</span><span class="w"> </span><span class="l">${{ secrets.ACTIONS_DEPLOY_KEY }}</span><span class="w">
-</span><span class="w">        </span><span class="nt">EXTERNAL_REPOSITORY</span><span class="p">:</span><span class="w"> </span><span class="l">username/external-repository</span><span class="w">
-</span><span class="w">        </span><span class="nt">PUBLISH_BRANCH</span><span class="p">:</span><span class="w"> </span><span class="l">master</span><span class="w">
-</span><span class="w">        </span><span class="nt">PUBLISH_DIR</span><span class="p">:</span><span class="w"> </span><span class="l">./public</span><span class="w">
-</span><span class="w">      </span><span class="nt">with</span><span class="p">:</span><span class="w">
-</span><span class="w">        </span><span class="nt">emptyCommits</span><span class="p">:</span><span class="w"> </span><span class="kc">false</span><span class="w">
-</span><span class="w">        </span><span class="nt">commitMessage</span><span class="p">:</span><span class="w"> </span><span class="l">${{ github.event.head_commit.message }}</span><span class="w">
+<pre class="chroma"><code class="language-yml" data-lang="yml"><span class="nt">plugins</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span>- <span class="l">jekyll-relative-links</span><span class="w">
+</span><span class="w"></span><span class="nt">relative_links</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span><span class="nt">enabled</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w">  </span><span class="nt">collections</span><span class="p">:</span><span class="w"> </span><span class="kc">true</span><span class="w">
+</span><span class="w"></span><span class="nt">include</span><span class="p">:</span><span class="w">
+</span><span class="w">  </span>- <span class="l">CONTRIBUTING.md</span><span class="w">
+</span><span class="w">  </span>- <span class="l">README.md</span><span class="w">
+</span><span class="w">  </span>- <span class="l">LICENSE.md</span><span class="w">
+</span><span class="w">  </span>- <span class="l">COPYING.md</span><span class="w">
+</span><span class="w">  </span>- <span class="l">CODE_OF_CONDUCT.md</span><span class="w">
+</span><span class="w">  </span>- <span class="l">CONTRIBUTING.md</span><span class="w">
+</span><span class="w">  </span>- <span class="l">ISSUE_TEMPLATE.md</span><span class="w">
+</span><span class="w">  </span>- <span class="l">PULL_REQUEST_TEMPLATE.md</span><span class="w">
 </span></code></pre></td></tr></table>
 </div>
-</div><ol start="5">
-<li>Commit dan Push Hugo Sumber.</li>
-<li>Periksa workflow dalam tab Action di repositori Hugo Sumber<br />
-Setelah <em>workflow</em> beres dan commit terlihat di repositori Github Pages, Github Pages berhasil diterbitkan.</li>
+</div><p>Pada dasarnya ini hanya konfigurasi standar Github Pages untuk menangani file-file Markdown.</p>
+<ol start="3">
+<li>Aktifkan Github Pages<br />
+Masuk ke <code>Settings</code> &gt; <code>Option</code> &gt; <code>Github Pages</code> &gt; <code>Source</code>. Pilh <code>master branch</code>, lalu <code>Save</code>.</li>
+<li>Pilih Tema yang sesuai</li>
 </ol>
+<h2 id="catatan">Catatan</h2>
+<ul>
+<li>Untuk mengakses file, hanya perlu mengakses url file tanpa menambahkan .md.</li>
+<li>Untuk membuat relatif URL, gunakan konfigurasi <code>_config.yml</code> yang menyediakan plugin untuk mengonversi URL</li>
+<li>Index dari website dapat menggunakan file <code>index.html</code> atau <code>README.md</code>. Jika kedua file ada, maka file <code>index.html</code> akan diutamakan.</li>
+</ul>
 <h2 id="referensi">Referensi</h2>
-<p><a href="https://medium.com/@asishrs/automate-your-github-pages-deployment-using-hugo-and-actions-518b959a51f9" target="_blank">medium.com/@asishrs</a></p>
+<p><a href="https://medium.com/@bolajiayodeji/how-to-convert-github-markdown-files-to-a-simple-website-b08602d05e1c" target="_blank">medium.com/@bolajiayodeji</a></p>
 
   </article>
 </div>
@@ -1969,17 +1892,17 @@ Setelah <em>workflow</em> beres dan commit terlihat di repositori Github Pages, 
 <nav class="pagination-single">
   
     
-      <a href="https://kva.github.io/docs/web/convert-github-markdown-to-a-simple-site/" title="Membuat Situs dari File Markdown" class="pagination-single__left">
+      <a href="https://kva.github.io/docs/web/about-this-blog/" title="Tentang Blog Ini" class="pagination-single__left">
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M19 11H7.83l4.88-4.88c.39-.39.39-1.03 0-1.42-.39-.39-1.02-.39-1.41 0l-6.59 6.59c-.39.39-.39 1.02 0 1.41l6.59 6.59c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L7.83 13H19c.55 0 1-.45 1-1s-.45-1-1-1z"/></svg>
         </div>
-        <div class="pagination-single__right-title">Membuat Situs dari File Markdown</div>
+        <div class="pagination-single__right-title">Tentang Blog Ini</div>
       </a>
     
     <div class="grow"></div>
     
-      <a href="https://kva.github.io/docs/web/readme2/" title="New Readme.md Template" class="pagination-single__right">
-        <div class="pagination-single__left-title">New Readme.md Template</div>
+      <a href="https://kva.github.io/docs/web/otomatis-deploy-github-pages-dengan-hugo-dan-actions/" title="Otomatis Deploy Github Pages Dengan Hugo Dan Actions" class="pagination-single__right">
+        <div class="pagination-single__left-title">Otomatis Deploy Github Pages Dengan Hugo Dan Actions</div>
         <div class="pagination-single__icon">
           <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" viewBox="0 0 24 24"><path fill="none" d="M0 0h24v24H0V0z"/><path fill="currentColor" d="M5 13h11.17l-4.88 4.88c-.39.39-.39 1.03 0 1.42.39.39 1.02.39 1.41 0l6.59-6.59c.39-.39.39-1.02 0-1.41l-6.58-6.6c-.39-.39-1.02-.39-1.41 0-.39.39-.39 1.02 0 1.41L16.17 11H5c-.55 0-1 .45-1 1s.45 1 1 1z"/></svg>
         </div>
@@ -2020,13 +1943,8 @@ Setelah <em>workflow</em> beres dan commit terlihat di repositori Github Pages, 
   <div class="toc__body">
     <nav id="TableOfContents">
   <ul>
-    <li><a href="#persiapan">Persiapan</a></li>
-    <li><a href="#tahapan">Tahapan</a>
-      <ul>
-        <li><a href="#syarat">Syarat</a></li>
-        <li><a href="#mengonfigurasi-github-actions">Mengonfigurasi Github Actions</a></li>
-      </ul>
-    </li>
+    <li><a href="#tahapan">Tahapan</a></li>
+    <li><a href="#catatan">Catatan</a></li>
     <li><a href="#referensi">Referensi</a></li>
   </ul>
 </nav>
