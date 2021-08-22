@@ -1,5 +1,5 @@
 ---
-modified: 2021-08-12T02:53:26+07:00
+modified: 2021-08-22T23:55:18+07:00
 ---
 
 +++
@@ -17,7 +17,7 @@ image = "images/landscape.jpg"
 Lorem est tota propiore conpellat pectoribus de
 pectora summo. Redit teque digerit hominumque toris verebor lumina non cervice
 subde tollit usus habet Arctonque, furores quas nec ferunt. Quoque montibus nunc
-caluere tempus<!--more--> inhospita parcite confusaque translucet patri vestro qui optatis
+caluere tempus inhospita parcite confusaque translucet patri vestro qui optatis
 lumine cognoscere flos nubis! Fronde ipsamque patulos Dryopen deorum.
 
 1. Exierant elisi ambit vivere dedere
