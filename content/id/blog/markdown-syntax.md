@@ -1,6 +1,10 @@
 ---
-modified: 2021-08-29T00:01:59+07:00
+modified: 2021-08-29T00:02:22+07:00
 ---
+
+<p><ruby>職場<rp>（</rp><rt>しょくば</rt><rp>）</rp></ruby>に<ruby>着<rp>（</rp><rt>つ</rt><rp>）</rp></ruby>いて<ruby>膝<rp>（</rp><rt>ひざ</rt><rp>）</rp></ruby>から<ruby>崩<rp>（</rp><rt>くず</rt><rp>）</rp></ruby>れ<ruby>落<rp>（</rp><rt>お</rt><rp>）</rp></ruby>ちた。</p>
+<p><ruby>今日<rp>（</rp><rt>きょう</rt><rp>）</rp></ruby>の<ruby>会議<rp>（</rp><rt>かいぎ</rt><rp>）</rp></ruby>はこのパソコンで<ruby>出席<rp>（</rp><rt>しゅっせき</rt><rp>）</rp></ruby>します。</p>
+<p><ruby>娘<rp>（</rp><rt>むすめ</rt><rp>）</rp></ruby>たちよ、<ruby>今日<rp>（</rp><rt>きょう</rt><rp>）</rp></ruby>の<ruby>夜<rp>（</rp><rt>よる</rt><rp>）</rp></ruby>は<ruby>父<rp>（</rp><rt>とう</rt><rp>）</rp></ruby>ちゃんから<ruby>大事<rp>（</rp><rt>だいじ</rt><rp>）</rp></ruby>なお<ruby>話<rp>（</rp><rt>はなし</rt><rp>）</rp></ruby>があります。</p>
 
 +++
 author = "eR"
